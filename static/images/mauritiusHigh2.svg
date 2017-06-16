@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- (c) ammap.com | SVG map of Mauritius - High -->
+
+<svg
+   xmlns:amcharts="http://amcharts.com/ammap"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="mauritiusHigh.svg"
+   width="799.70044"
+   height="931.2876">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview19"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.59"
+     inkscape:cx="523.20507"
+     inkscape:cy="459.63454"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style6">
+			.land
+			{
+				fill: #CCCCCC;
+				fill-opacity: 1;
+				stroke:white;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+		</style>
+    <amcharts:ammap
+       projection="mercator"
+       leftLongitude="57.300567627"
+       topLatitude="-19.9736714582"
+       rightLongitude="57.8155517578"
+       bottomLatitude="-20.5344343112" />
+    <!-- All areas are listed in the line below. You can use this list in your script. -->
+    <!--{id:"MU-PW"},{id:"MU-PL"},{id:"MU-SA"},{id:"MU-RN"},{id:"MU-RR"},{id:"MU-PA"},{id:"MU-MO"},{id:"MU-GP"},{id:"MU-FL"}-->
+  </defs>
+  <g
+     id="g8"
+     transform="translate(343.28244,418.60991)" />
+     <a xlink:href="#">
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-PW"
+     title="Plaines Wilhems"
+     class="land"
+     d="m 249.47716,478.54602 3.64,60.21 1.45,24.07 5.23,29.74 12.54,11.89 3.15,2.98 -6.97,11.16 -22.66,0 -10.46,11.15 8.71,35.33 10.46,27.9 -15.69,13.02 13.95,18.59 31.38,7.44 15.69,9.3 -1.74,26.05 26.15,3.72 10.46,-35.35 3.48,-14.88 24.41,3.72 13.95,11.16 17.43,-3.72 87.16,-102.28 -34.86,-24.16 -15.69,-29.75 6.97,-22.3 -27.89,-37.18 -15.69,-22.3 -31.38,-3.71 -38.35,-35.31 -22.67,-57.59 -5.23,-31.58 -24.4,-3.72 -14.37,25.29 -3.74,27.07 -5.77,41.84 1.35,22.2 z"
+     />
+ </a>
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-PL"
+     title="Port Louis"
+     class="land"
+     d="m 394.43716,384.92602 6.57,-45.06 -5.23,-70.57 -12.2,-22.28 -29.64,7.42 -35.8,-5.8 -8.82,-1.42 -5.02,31.94 -27.75,28.84 -15.85,7.04 2.48,10.34 8.83,36.77 24.4,3.72 31.38,-11.15 20.92,9.29 33.13,16.72 12.6,4.2 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-SA"
+     title="Savanne"
+     class="land"
+     d="m 325.16716,931.03602 137.66,-21.72 69.13,-22.14 -3.69,-19.33 -5.23,-39.08 -20.92,-57.67 -29.63,-33.49 -33.13,-7.44 -45.32,1.86 -17.43,3.72 -13.95,-11.16 -24.41,-3.72 -3.48,14.88 -10.46,35.35 -26.15,-3.72 -19.18,-11.16 -34.87,11.16 -33.12,13.02 -38.35,29.76 -29.64,9.31 0,35.35 17.44,16.75 -4.64,25.9 44.92,5.08 75.83,24.54 48.62,3.95 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-RN"
+     title="Rivière Noire"
+     class="land"
+     d="m 263.17716,325.37602 -2.48,-10.34 -35.14,10.13 -15.59,7.6 -35.93,30.13 -3.31,5.34 -13.47,14.36 -36.86,73.49 -11.1,30.14 -7.53,52.39 -1.58,95.52 -13.079999,42.27 17.699999,10.01 1.85,17.75 -8.459999,48.63 -9.77,22.42 -22.2,4.23 -40.16,-8.32 -25.76000006,10.15 7.12999996,23.12 20.6100001,24.11 93.409999,84.62 34.34,-15.66 4.64,-25.9 -17.44,-16.75 0,-35.35 29.64,-9.31 38.35,-29.76 33.12,-13.02 34.87,-11.16 19.18,11.16 1.74,-26.05 -15.69,-9.3 -31.38,-7.44 -13.95,-18.59 15.69,-13.02 -10.46,-27.9 -8.71,-35.33 10.46,-11.15 22.66,0 6.97,-11.16 -3.15,-2.98 -12.54,-11.89 -5.23,-29.74 -1.45,-24.07 -3.64,-60.21 -1.35,-22.2 5.77,-41.84 3.74,-27.07 14.37,-25.29 -8.83,-36.77 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-RR"
+     title="Rivière du Rempart"
+     class="land"
+     d="m 493.21716,0.25601755 -17.18,5.47999995 -9.77,12.2300005 -7.14,12.23 -9.38,5.49 48.89,59.13 3.48,22.270002 -10.46,24.12 47.07,48.26 -26.15,31.56 19.18,83.55 166.89,-102.67 -6.34,-1.68 -19.16,3.09 -6.6,-1.41 -8.19,-10.69 -4.23,-19.97 -13.74,-24.76 -12.29,-28.97 -11.49,-16.45 -6.34,-16.450002 9.11,-29.81 -8.32,-19.12 -19.42,-10.13 -72.79,-21.3600005 -25.63,-3.93999995 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-PA"
+     title="Pamplemousses"
+     class="land"
+     d="m 531.75716,304.57602 -19.18,-83.55 26.15,-31.56 -47.07,-48.26 10.46,-24.12 -3.48,-22.270002 -48.89,-59.13 -21.8,1.68 -11.09,5.06 -44.79,36.28 -7.13,10.41 -9.91,18.560002 -20.08,61.88 -24.58,45.44 -1.05,32.22 8.82,1.42 35.8,5.8 29.64,-7.42 12.2,22.28 5.23,70.57 -6.57,45.06 15.29,5.09 27.89,-11.15 33.12,-22.29 23.73,-1.23 2.42,-15.48 27.9,-18.58 6.97,-16.71 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-MO"
+     title="Moka"
+     class="land"
+     d="m 394.43716,384.92602 -12.6,-4.2 -33.13,-16.72 -20.92,-9.29 -31.38,11.15 5.23,31.58 22.67,57.59 38.35,35.31 31.38,3.71 15.69,22.3 27.89,37.18 -6.97,22.3 15.69,29.75 34.86,24.16 55.79,1.86 36.61,-11.15 19.17,-16.73 17.44,-65.06 -80.19,-66.91 52.29,-52.02 -55.78,-42.73 -33.12,-14.86 1.06,-6.8 -23.73,1.23 -33.12,22.29 -27.89,11.15 -15.29,-5.09 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-GP"
+     title="Grand Port"
+     class="land"
+     d="m 770.90716,562.84602 -35.19,-3.74 -47.06,37.18 -62.76,5.58 -33.13,1.86 -19.17,16.73 -36.61,11.15 -55.79,-1.86 -87.16,102.28 45.32,-1.86 33.13,7.44 29.63,33.49 20.92,57.67 5.23,39.08 3.69,19.33 66.95,-21.44 20.34,-13.96 12.42,-17.49 21.8,-39.48 8.85,-5.07 10.3,0.56 9.25,-3.24 5.68,-15.93 -1.19,-9.45 -8.72,-14.8 -1.18,-12.26 -12.56,-28.61 27.62,-40.73 45.18,-35.65 39.63,-13.25 -9.11,-26.48 3.69,-27.05 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="MU-FL"
+     title="Flacq"
+     class="land"
+     d="m 799.44716,420.89602 -7.13,-18.31 -31.18,-37.44 -15.59,-49.26 -16.78,-13.51 -12.55,-18.02 5.29,-55.86 -4.76,-11.11 -18.1,-15.48 -166.89,102.67 -6.97,16.71 -27.9,18.58 -2.42,15.48 -1.06,6.8 33.12,14.86 55.78,42.73 -52.29,52.02 80.19,66.91 -17.44,65.06 33.13,-1.86 62.76,-5.58 47.06,-37.18 35.19,3.74 17.44,-52.96 8.19,-47.46 2.91,-41.53 z"
+     style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-opacity:1" />
+</svg>

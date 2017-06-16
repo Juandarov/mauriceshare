@@ -1,0 +1,3 @@
+svg { height: 40vw; }
+path { fill: #32ad60; transition: .6s fill; }
+path:hover { fill: #b1f690;}
