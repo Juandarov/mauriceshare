@@ -1,3 +1,25 @@
-svg { height: 40vw; }
-path { fill: #32ad60; transition: .6s fill; }
-path:hover { fill: #b1f690;}
+svg {
+    height: 40vw;
+}
+
+a {
+    outline: none;
+}
+
+path {
+    fill: #32ad60; transition: .7s fill;
+}
+
+path:hover {
+    fill: #b1f690;
+}
+
+path:active {
+}
+
+.land {
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+}
