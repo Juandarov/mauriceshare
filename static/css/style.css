@@ -23,3 +23,16 @@ path:active {
     stroke-opacity: 2;
     stroke-width: 1;
 }
+
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #5abf0a;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
