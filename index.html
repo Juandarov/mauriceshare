@@ -8,58 +8,136 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>mauriceshare</title>
-    <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet"> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!-- Bootstrap Dropdown Hover CSS -->
+    <link href="static/bootstrap-dropdown-hover/css/animate.min.css" rel="stylesheet">
+    <link href="static/bootstrap-dropdown-hover/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-    <div class="mapMRU">
-        <div id="info-box"></div>
-        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
 
-        <svg id="svg2" version="1.1" viewBox="0 0 799.7 931.29" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" inkscape:version="0.91 r13725">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-animations="lightSpeedIn" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="mapMRU">
+            <div id="info-box"></div>
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg id="svg2" version="1.1" viewBox="0 0 799.7 931.29" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" inkscape:version="0.91 r13725">
 
             <g id="g8" transform="translate(-.12284 .25602)">
+            <a xlink:href="#">Plaines Wilhems
+                <path id="MU-PW" data-info="<div>Plaines Wilhems</div>" d="m249.6 478.29 3.64 60.21 1.45 24.07 5.23 29.74 12.54 11.89 3.15 2.98-6.97 11.16h-22.66l-10.46 11.15 8.71 35.33 10.46 27.9-15.69 13.02 13.95 18.59 31.38 7.44 15.69 9.3-1.74 26.05 26.15 3.72 10.46-35.35 3.48-14.88 24.41 3.72 13.95 11.16 17.43-3.72 87.16-102.28-34.86-24.16-15.69-29.75 6.97-22.3-27.89-37.18-15.69-22.3-31.38-3.71-38.35-35.31-22.67-57.59-5.23-31.58-24.4-3.72-14.37 25.29-3.74 27.07-5.77 41.84 1.35 22.2z" title="Plaines Wilhems" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">Plaines Wilhems
-                    <path id="MU-PW" data-info="<div>Plaines Wilhems</div>" d="m249.6 478.29 3.64 60.21 1.45 24.07 5.23 29.74 12.54 11.89 3.15 2.98-6.97 11.16h-22.66l-10.46 11.15 8.71 35.33 10.46 27.9-15.69 13.02 13.95 18.59 31.38 7.44 15.69 9.3-1.74 26.05 26.15 3.72 10.46-35.35 3.48-14.88 24.41 3.72 13.95 11.16 17.43-3.72 87.16-102.28-34.86-24.16-15.69-29.75 6.97-22.3-27.89-37.18-15.69-22.3-31.38-3.71-38.35-35.31-22.67-57.59-5.23-31.58-24.4-3.72-14.37 25.29-3.74 27.07-5.77 41.84 1.35 22.2z" title="Plaines Wilhems" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-PL" data-info="<div>Port Louis</div>" d="m394.56 384.67 6.57-45.06-5.23-70.57-12.2-22.28-29.64 7.42-35.8-5.8-8.82-1.42-5.02 31.94-27.75 28.84-15.85 7.04 2.48 10.34 8.83 36.77 24.4 3.72 31.38-11.15 20.92 9.29 33.13 16.72 12.6 4.2z" title="Port Louis" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-PL" data-info="<div>Port Louis</div>" d="m394.56 384.67 6.57-45.06-5.23-70.57-12.2-22.28-29.64 7.42-35.8-5.8-8.82-1.42-5.02 31.94-27.75 28.84-15.85 7.04 2.48 10.34 8.83 36.77 24.4 3.72 31.38-11.15 20.92 9.29 33.13 16.72 12.6 4.2z" title="Port Louis" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-SA" data-info="<div>Savanne</div>" d="m325.29 930.78 137.66-21.72 69.13-22.14-3.69-19.33-5.23-39.08-20.92-57.67-29.63-33.49-33.13-7.44-45.32 1.86-17.43 3.72-13.95-11.16-24.41-3.72-3.48 14.88-10.46 35.35-26.15-3.72-19.18-11.16-34.87 11.16-33.12 13.02-38.35 29.76-29.64 9.31v35.35l17.44 16.75-4.64 25.9 44.92 5.08 75.83 24.54 48.62 3.95z" title="Savanne" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-SA" data-info="<div>Savanne</div>" d="m325.29 930.78 137.66-21.72 69.13-22.14-3.69-19.33-5.23-39.08-20.92-57.67-29.63-33.49-33.13-7.44-45.32 1.86-17.43 3.72-13.95-11.16-24.41-3.72-3.48 14.88-10.46 35.35-26.15-3.72-19.18-11.16-34.87 11.16-33.12 13.02-38.35 29.76-29.64 9.31v35.35l17.44 16.75-4.64 25.9 44.92 5.08 75.83 24.54 48.62 3.95z" title="Savanne" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-RN" data-info="<div>Rivière Noire</div>" d="m263.3 325.12-2.48-10.34-35.14 10.13-15.59 7.6-35.93 30.13-3.31 5.34-13.47 14.36-36.86 73.49-11.1 30.14-7.53 52.39-1.58 95.52-13.08 42.27 17.7 10.01 1.85 17.75-8.46 48.63-9.77 22.42-22.2 4.23-40.16-8.32-25.76 10.15 7.13 23.12 20.61 24.11 93.41 84.62 34.34-15.66 4.64-25.9-17.44-16.75v-35.35l29.64-9.31 38.35-29.76 33.12-13.02 34.87-11.16 19.18 11.16 1.74-26.05-15.69-9.3-31.38-7.44-13.95-18.59 15.69-13.02-10.46-27.9-8.71-35.33 10.46-11.15h22.66l6.97-11.16-3.15-2.98-12.54-11.89-5.23-29.74-1.45-24.07-3.64-60.21-1.35-22.2 5.77-41.84 3.74-27.07 14.37-25.29-8.83-36.77z" title="Rivière Noire" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-RN" data-info="<div>Rivière Noire</div>" d="m263.3 325.12-2.48-10.34-35.14 10.13-15.59 7.6-35.93 30.13-3.31 5.34-13.47 14.36-36.86 73.49-11.1 30.14-7.53 52.39-1.58 95.52-13.08 42.27 17.7 10.01 1.85 17.75-8.46 48.63-9.77 22.42-22.2 4.23-40.16-8.32-25.76 10.15 7.13 23.12 20.61 24.11 93.41 84.62 34.34-15.66 4.64-25.9-17.44-16.75v-35.35l29.64-9.31 38.35-29.76 33.12-13.02 34.87-11.16 19.18 11.16 1.74-26.05-15.69-9.3-31.38-7.44-13.95-18.59 15.69-13.02-10.46-27.9-8.71-35.33 10.46-11.15h22.66l6.97-11.16-3.15-2.98-12.54-11.89-5.23-29.74-1.45-24.07-3.64-60.21-1.35-22.2 5.77-41.84 3.74-27.07 14.37-25.29-8.83-36.77z" title="Rivière Noire" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-RR" data-info="<div>Rivière du Rempart</div>" d="m493.34 0-17.18 5.48-9.77 12.23-7.14 12.23-9.38 5.49 48.89 59.13 3.48 22.27-10.46 24.12 47.07 48.26-26.15 31.56 19.18 83.55 166.89-102.67-6.34-1.68-19.16 3.09-6.6-1.41-8.19-10.69-4.23-19.97l-13.74-24.76-12.29-28.97-11.49-16.45-6.34-16.45 9.11-29.81-8.32-19.12-19.42-10.13-72.79-21.36-25.63-3.94z" title="Rivière du Rempart" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-RR" data-info="<div>Rivière du Rempart</div>" d="m493.34 0-17.18 5.48-9.77 12.23-7.14 12.23-9.38 5.49 48.89 59.13 3.48 22.27-10.46 24.12 47.07 48.26-26.15 31.56 19.18 83.55 166.89-102.67-6.34-1.68-19.16 3.09-6.6-1.41-8.19-10.69-4.23-19.97l-13.74-24.76-12.29-28.97-11.49-16.45-6.34-16.45 9.11-29.81-8.32-19.12-19.42-10.13-72.79-21.36-25.63-3.94z" title="Rivière du Rempart" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-PA" data-info="<div>Pamplemousses</div>" d="m531.88 304.32-19.18-83.55 26.15-31.56-47.07-48.26 10.46-24.12-3.48-22.27-48.89-59.13-21.8 1.68-11.09 5.06-44.79 36.28-7.13 10.41-9.91 18.56-20.08 61.88-24.58 45.44-1.05 32.22 8.82 1.42 35.8 5.8 29.64-7.42 12.2 22.28 5.23 70.57-6.57 45.06 15.29 5.09 27.89-11.15 33.12-22.29 23.73-1.23 2.42-15.48 27.9-18.58 6.97-16.71z" title="Pamplemousses" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-PA" data-info="<div>Pamplemousses</div>" d="m531.88 304.32-19.18-83.55 26.15-31.56-47.07-48.26 10.46-24.12-3.48-22.27-48.89-59.13-21.8 1.68-11.09 5.06-44.79 36.28-7.13 10.41-9.91 18.56-20.08 61.88-24.58 45.44-1.05 32.22 8.82 1.42 35.8 5.8 29.64-7.42 12.2 22.28 5.23 70.57-6.57 45.06 15.29 5.09 27.89-11.15 33.12-22.29 23.73-1.23 2.42-15.48 27.9-18.58 6.97-16.71z" title="Pamplemousses" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-MO" data-info="<div>Moka</div>" d="m394.56 384.67-12.6-4.2-33.13-16.72-20.92-9.29-31.38 11.15 5.23 31.58 22.67 57.59 38.35 35.31 31.38 3.71 15.69 22.3 27.89 37.18-6.97 22.3 15.69 29.75 34.86 24.16 55.79 1.86 36.61-11.15 19.17-16.73 17.44-65.06-80.19-66.91 52.29-52.02-55.78-42.73-33.12-14.86 1.06-6.8-23.73 1.23-33.12 22.29-27.89 11.15-15.29-5.09z" title="Moka" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-MO" data-info="<div>Moka</div>" d="m394.56 384.67-12.6-4.2-33.13-16.72-20.92-9.29-31.38 11.15 5.23 31.58 22.67 57.59 38.35 35.31 31.38 3.71 15.69 22.3 27.89 37.18-6.97 22.3 15.69 29.75 34.86 24.16 55.79 1.86 36.61-11.15 19.17-16.73 17.44-65.06-80.19-66.91 52.29-52.02-55.78-42.73-33.12-14.86 1.06-6.8-23.73 1.23-33.12 22.29-27.89 11.15-15.29-5.09z" title="Moka" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-GP" data-info="<div>Grand Port</div>" d="m771.03 562.59-35.19-3.74-47.06 37.18-62.76 5.58-33.13 1.86-19.17 16.73-36.61 11.15-55.79-1.86-87.16 102.28 45.32-1.86 33.13 7.44 29.63 33.49 20.92 57.67 5.23 39.08 3.69 19.33 66.95-21.44 20.34-13.96 12.42-17.49 21.8-39.48 8.85-5.07 10.3 0.56 9.25-3.24 5.68-15.93-1.19-9.45-8.72-14.8-1.18-12.26-12.56-28.61 27.62-40.73 45.18-35.65 39.63-13.25-9.11-26.48 3.69-27.05z" title="Grand Port" inkscape:connector-curvature="0" class="land"/>
+            </a>
 
-                <a xlink:href="#">
-                    <path id="MU-GP" data-info="<div>Grand Port</div>" d="m771.03 562.59-35.19-3.74-47.06 37.18-62.76 5.58-33.13 1.86-19.17 16.73-36.61 11.15-55.79-1.86-87.16 102.28 45.32-1.86 33.13 7.44 29.63 33.49 20.92 57.67 5.23 39.08 3.69 19.33 66.95-21.44 20.34-13.96 12.42-17.49 21.8-39.48 8.85-5.07 10.3 0.56 9.25-3.24 5.68-15.93-1.19-9.45-8.72-14.8-1.18-12.26-12.56-28.61 27.62-40.73 45.18-35.65 39.63-13.25-9.11-26.48 3.69-27.05z" title="Grand Port" inkscape:connector-curvature="0" class="land"/>
-                </a>
-
-                <a xlink:href="#">
-                    <path id="MU-FL" data-info="<div>Flacq</div>" d="m799.57 420.64-7.13-18.31-31.18-37.44-15.59-49.26-16.78-13.51-12.55-18.02 5.29-55.86-4.76-11.11-18.1-15.48-166.89 102.67-6.97 16.71-27.9 18.58-2.42 15.48-1.06 6.8 33.12 14.86 55.78 42.73-52.29 52.02 80.19 66.91-17.44 65.06 33.13-1.86 62.76-5.58 47.06-37.18 35.19 3.74 17.44-52.96 8.19-47.46 2.91-41.53z" title="Flacq" inkscape:connector-curvature="0" class="land"/>
-                </a>
+            <a xlink:href="#">
+                <path id="MU-FL" data-info="<div>Flacq</div>" d="m799.57 420.64-7.13-18.31-31.18-37.44-15.59-49.26-16.78-13.51-12.55-18.02 5.29-55.86-4.76-11.11-18.1-15.48-166.89 102.67-6.97 16.71-27.9 18.58-2.42 15.48-1.06 6.8 33.12 14.86 55.78 42.73-52.29 52.02 80.19 66.91-17.44 65.06 33.13-1.86 62.76-5.58 47.06-37.18 35.19 3.74 17.44-52.96 8.19-47.46 2.91-41.53z" title="Flacq" inkscape:connector-curvature="0" class="land"/>
+            </a>
             </g>
-        </svg>
+            </svg>
+        </div>
+    </main>
 
-    </div>
+    <footer>
+        <div class="footer">
+        </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <!-- Bootstrap Dropdown Hover JS -->
+    <script src="static/bootstrap-dropdown-hover/js/bootstrap-dropdownhover.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="static/js/scripts.js" charset="utf-8"></script>
 </body>

@@ -1,5 +1,12 @@
+
+
+.container {
+    padding: 0;
+}
+
 svg {
-    height: 40vw;
+    height: 30vw;
+
 }
 
 a {
@@ -7,7 +14,7 @@ a {
 }
 
 path {
-    fill: #32ad60; transition: .7s fill;
+    fill: #32ad60; transition: .6s fill;
 }
 
 path:hover {
@@ -20,7 +27,7 @@ path:active {
 .land {
     fill-opacity: 1;
     stroke:white;
-    stroke-opacity: 2;
+    stroke-opacity: 1;
     stroke-width: 2.5;
 }
 
@@ -30,9 +37,24 @@ path:active {
   top: 0px;
   left: 0px;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #ffffff;        <footer>
+
   border: 2px solid #5abf0a;
   border-radius: 5px;
+  box-shadow: 2px 2px 3px 1px rgb(77, 217, 49);
   padding: 5px;
   font-family: 'Fresca', sans-serif;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.mapMRU {
+    width: 26%;
+    margin: auto;
+}
+
+footer {
+
 }
