@@ -10,4 +10,9 @@ $(document).ready(function() {
         $('#info-box').css('top',e.pageY-$('#info-box').height()-30);
         $('#info-box').css('left',e.pageX-($('#info-box').width())/2);
     }).mouseover();
+
+    $("path").click(function(){
+        $yolo = $(this).data('info');
+        $('#region').val($yolo)
+    });
 });
