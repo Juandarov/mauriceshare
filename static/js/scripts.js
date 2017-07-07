@@ -12,7 +12,6 @@ $(document).ready(function() {
     }).mouseover();
 
     $("path").click(function(){
-        $yolo = $(this).data('info');
-        $('#region').val($yolo)
+        $('#region').val($(this).data('info'));
     });
 });
